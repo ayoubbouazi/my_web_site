@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.header {
+  margin-top: 5rem;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  background-color: #cae4ff;
+  padding: 20px;
+}
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+.nav ul li a {
+  text-decoration: none;
+}
+.section {
+  padding: 20px;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  min-height: 80vh;
+}
+
+.description {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  border-radius: 10px;
+  line-height: 2rem;
+}
+
+
+
+/* Form style */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  color: #555;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
